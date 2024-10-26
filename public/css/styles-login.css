@@ -1,0 +1,86 @@
+/* กำหนด Margin และ Padding เริ่มต้นสำหรับทุกองค์ประกอบ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* การตั้งค่าทั่วไปของ Body */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('/pic/fantasy-cartoon-background-wallpaper_68067-6265.jpg'); /* Link to starry background image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+
+  /* คอนเทนเนอร์ของฟอร์ม */
+  .login-container {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+  }
+
+  .login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .form-control {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #fff;
+  }
+
+  .form-control::placeholder {
+    color: #9b9090;
+  }
+
+  .form-control:focus {
+    border: none;
+    box-shadow: none;
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    background-color: #6c63ff;
+    border: none;
+    font-size: 18px;
+  }
+
+  .btn-primary:hover {
+    background-color: #5a52d1;
+  }
+
+  .form-check-label {
+    color: #fff;
+  }
+
+  a {
+    color: #ddd;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Custom spacing */
+  .login-container .form-group {
+    margin-bottom: 20px;
+  }
+
+  .login-container p {
+    text-align: center;
+    margin-top: 20px;
+  }

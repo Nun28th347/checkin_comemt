@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+h1 {
+    margin: 20px 0; /* Added more margin for separation */
+    text-align: center; 
+}
+
+form {
+    margin-bottom: 20px;
+    padding: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.btn {
+    top: 10px;
+}
+
+/* Aligning form content */
+.form-signin {
+    width: 100%;
+    max-width: 330px; /* Keep form width */
+    padding: 15px;
+    text-align: center; /* Center form content */
+    margin: 0 auto; /* Center form horizontally */
+}
+
+
